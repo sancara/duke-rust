@@ -1,0 +1,2 @@
+# duke-rust
+rust programm

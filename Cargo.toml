@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+members = [
+    "fundamentals",
+    "data_structures", 
+    "error_handling",
+    "cli_app"
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["Duke Rust Learning"]
+description = "Rust programming learning repository following Duke specialization"
+
+[workspace.dependencies]
+clap = "4.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"

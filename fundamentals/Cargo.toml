@@ -1,0 +1,5 @@
+[package]
+name = "fundamentals"
+version = "0.1.0"
+edition = "2021"
+description = "Fundamental Rust concepts and syntax"
